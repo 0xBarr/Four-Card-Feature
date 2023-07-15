@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+.top{
+    margin: 0 auto;
+    text-align: center;
+}
+.header1{
+    margin: 50px 0 0 0;
+    font-weight: 200;
+    
+}
+.header2{
+    margin-top: 0px;
+}
+.description{
+    color: hsl(229, 6%, 66%);
+    width: 490px;
+    text-align: center;
+    font-size: 90%;
+}
+.nav-wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card{
+    width: 250px;
+    height: 170px;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 35px 0px 25px 20px;
+    box-shadow: 0px 1px 15px #b8babe;
+    
+}
+.card img{
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    transform: scale(0.7);
+}
+.info{
+    width: 200px;
+    color: hsl(229, 6%, 66%);
+    font-size: 70%;
+    margin-top: 0;
+}
+@media only screen and (max-width: 480px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header2{
+        width: 375px;
+        
+    }
+    .description{
+        font-size: 100%;
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .nav-wrapper{
+        width: 90%;
+        display: block;
+    }    
+    .card{
+        width: 260px;
+        height: 150px;
+        text-align: left;
+        border-radius: 5px;
+        padding: 25px;
+        margin: 70px auto 25px auto;
+        box-shadow: 0px 1px 15px #5b5d63;
+    }
+    .info{
+        width: 220px;
+        color: hsl(229, 6%, 66%);
+        font-size: 75%;
+        margin-top: 0;
+    }
+}
+.supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.team{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.calc{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+h3, h2{
+    color: hsl(234, 12%, 34%);
+}
+.attribution { margin-top: 50px;font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
